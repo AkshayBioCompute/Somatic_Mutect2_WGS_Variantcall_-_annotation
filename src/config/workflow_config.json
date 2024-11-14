@@ -1,0 +1,8 @@
+{
+  "samples": [
+    {"id": "sample1", "bam_file": "/path/to/sample1.bam"},
+    {"id": "sample2", "bam_file": "/path/to/sample2.bam"}
+  ],
+  "reference_genome": "/path/to/reference/genome.fasta",
+  "gatk_version": "4.2.0.0"
+}

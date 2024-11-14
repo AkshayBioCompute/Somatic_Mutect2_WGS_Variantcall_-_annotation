@@ -1,0 +1,27 @@
+# Python dependencies for WDL and bioinformatics tools
+
+# For working with WDL workflows
+cromwell==108.0  # Cromwell is a workflow engine to run WDL workflows
+
+# GATK dependencies (Genome Analysis Toolkit)
+gatk==4.4.0.0  # GATK 4.x for somatic variant calling (Mutect2, BaseRecalibrator, etc.)
+
+# BWA (Burrows-Wheeler Aligner)
+bwa==0.7.17  # Version 0.7.17 (or compatible with your system)
+
+# FastQC for quality control of sequencing data
+fastqc==0.11.9  # FastQC for running QC on sequencing reads
+
+# Variant Annotation Tool (e.g., snpEff for annotation)
+snpEff==5.1  # SnpEff to annotate variants in the VCF
+
+# Required bioinformatics utilities
+bcftools==1.15  # For working with VCF files
+samtools==1.16.1  # For BAM/SAM file manipulation (sorting, indexing, etc.)
+
+# General bioinformatics libraries
+pandas==1.5.3  # Python library for handling data in tabular form
+numpy==1.24.3  # Core scientific computing library for Python
+
+# To manage file handling and general utilities
+requests==2.31.0  # For interacting with APIs or downloading reference data
