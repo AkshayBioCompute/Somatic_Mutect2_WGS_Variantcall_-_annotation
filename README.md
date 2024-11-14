@@ -2,7 +2,7 @@ Here’s a sample `README.md` for your project, covering the Snakefile, WDL, Nex
 
 ---
 
-# Genomic Analysis Somatic_Mutect2_WGS_Variantcall_-_annotation
+# Genomic Analysis : Somatic_Mutect2_Variantcall_-_annotation
 
 ## Overview
 
